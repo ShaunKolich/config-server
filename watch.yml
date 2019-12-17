@@ -1,0 +1,8 @@
+spspring:
+  application:
+    name: watch
+
+server:
+  port: 9742
+  
+
