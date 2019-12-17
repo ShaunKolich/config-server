@@ -1,4 +1,4 @@
-spspring:
+spring:
   application:
     name: watch
 
