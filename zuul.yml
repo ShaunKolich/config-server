@@ -10,7 +10,7 @@ zuul:
   routes: 
     movies:
 #      url: http://localhost8080/
-      path: /movies 
-      service-id: movies
+      path: /social
+      service-id: social
       strip-prefix: true
       
