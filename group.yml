@@ -1,7 +1,7 @@
   
 spring:
   application:
-    name: groups
+    name: group
     
   datasource:
     url: jdbc:mysql://localhost:3306/social
