@@ -13,7 +13,7 @@ zuul:
 #       path: /social
 #       service-id: social
 #       strip-prefix: true
-      UserProfile:
-          path: /social
-          service-id: social
-          strip-prefix: true
+      profiles:
+         path: /profiles
+         service-id: social
+         strip-prefix: true
