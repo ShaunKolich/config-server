@@ -10,7 +10,7 @@ zuul:
   routes: 
         profile-server:
           path: /profiles/**
-#           url: http://localhost:9001/profiles/
+          url: http://localhost:9001/profiles/
           service-id: PROFILE
           strip-prefix: true
 #     movies:
