@@ -8,12 +8,13 @@ server:
 
 zuul:
   routes: 
+        profiles:
+          path: /profiles
+          service-id: social
+          strip-prefix: true
 #     movies:
 # #      url: http://localhost8080/
 #       path: /social
 #       service-id: social
 #       strip-prefix: true
-      profiles:
-         path: /profiles
-         service-id: social
-         strip-prefix: true
+     
