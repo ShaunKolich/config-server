@@ -10,6 +10,7 @@ zuul:
   routes: 
         profiles:
           path: /profiles
+          url: http://localhost:9999/profiles/
           service-id: social
           strip-prefix: true
 #     movies:
