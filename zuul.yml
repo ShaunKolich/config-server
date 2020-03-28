@@ -13,9 +13,5 @@ zuul:
           url: http://localhost:9001/profiles/
           service-id: PROFILE
           strip-prefix: true
-#     movies:
-# #      url: http://localhost8080/
-#       path: /social
-#       service-id: social
-#       strip-prefix: true
+
      
