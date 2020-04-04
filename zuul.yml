@@ -14,7 +14,7 @@ zuul:
           strip-prefix: true
         authorization:
           path: /login/**
-#           url: http://localhost:9000/login/
+          url: http://localhost:9000/login/
           service-id: AUTHORIZATION
           strip-prefix: true
      
