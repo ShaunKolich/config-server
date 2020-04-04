@@ -12,9 +12,9 @@ zuul:
           url: http://localhost:9001/profiles/
           service-id: PROFILE
           strip-prefix: true
-        login-server:
+        authorization:
           path: /login/**
-          url: http://localhost:9000/login/
-          service-id: LOGIN
+#           url: http://localhost:9000/login/
+          service-id: AUTHORIZATION
           strip-prefix: true
      
